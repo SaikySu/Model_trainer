@@ -1,4 +1,4 @@
-# 🧠 Background Removal + Vectorization API with Hailo-8
+# Background Removal + Vectorization API with Hailo-8
 
 ## Introduction
 An API built with FastAPI to **process input images**, including:
@@ -9,7 +9,7 @@ An API built with FastAPI to **process input images**, including:
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 | Component           | Description                                                            |
 |---------------------|------------------------------------------------------------------------|
@@ -20,7 +20,7 @@ An API built with FastAPI to **process input images**, including:
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 | Model Name                    | Purpose                              | Format |
 |------------------------------|--------------------------------------|--------|
@@ -31,7 +31,7 @@ An API built with FastAPI to **process input images**, including:
 
 ---
 
-## 📥 Main Endpoints
+## Main Endpoints
 
 | Endpoint                            | Description |
 |-------------------------------------|-------------|
@@ -42,7 +42,7 @@ An API built with FastAPI to **process input images**, including:
 
 ---
 
-## ✅ Example Output (`POST /process_image/`)
+## Example Output (`POST /process_image/`)
 
 ```json
 {
@@ -68,7 +68,7 @@ An API built with FastAPI to **process input images**, including:
 pip install fastapi uvicorn numpy pillow
 ```
 
-## Ghi chú
+## Note
 - You can use the command `hailortcli` scan to check connected Hailo-8 devices.
 - The vector database is saved in `vector_db.json`. You may upgrade to SQLite or FAISS for larger-scale systems.
 - Every uploaded image generates a corresponding background-removed .png and an embedding vector that is saved.
