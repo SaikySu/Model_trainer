@@ -16,8 +16,8 @@ from hailo_platform import (
 )
 
 # ---- CONFIGURATION ----
-DEEPLAB_HEF_PATH = "deeplab_v3_mobilenet_v2.hef"
-RESNET_HEF_PATH = "resnet_v1_50.hef"
+DEEPLAB_HEF_PATH = "" # Your deeplab model
+RESNET_HEF_PATH = "" # Yor Resnet model
 VECTOR_JSON_PATH = "vector_db.json"
 UPLOAD_FOLDER = "uploads"
 PROCESSED_FOLDER = "processed"
