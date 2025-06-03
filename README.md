@@ -66,7 +66,7 @@ An API built with FastAPI to **process input images**, including:
 - Quick install: 
 ```bash
 pip install fastapi uvicorn numpy pillow
-```
+``` 
 
 ## Note
 - You can use the command `hailortcli` scan to check connected Hailo-8 devices.
